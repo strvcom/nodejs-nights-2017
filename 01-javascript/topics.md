@@ -78,3 +78,6 @@
     - every, some
   - Map
   - Set
+
+  ### 9. Iterators & Symbols
+  ### 10. Generators
