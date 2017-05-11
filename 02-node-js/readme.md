@@ -8,7 +8,10 @@ Topics covered:
 
 ## Homework
 
-### 1. Generator
+### 1. Watch the video about event looop
+<https://www.youtube.com/watch?v=8aGhZQkoFbQ>
+
+### 2. Generator
 Create a generator generating numbers from Fibonacci sequence. Generator should generate as many numbers as consumer needs.
 Fibonacci sequence is: 1, 1, 2, 3, 5, 8, 13, ...
 
@@ -19,9 +22,7 @@ A[1] = 1
 A[i] = A[i - 2] + A[i - 1]
 ```
 
-### 2. Use async constructs (callbacks, promises, async await)
-
-#### Assignment:
+### 3. Use async constructs (callbacks, promises, async await)
 
 *Summary:*  
 Get names of all vehicles owned by Luke Skywalker. Use Starwars API to retrieve data (<http://swapi.co>).
