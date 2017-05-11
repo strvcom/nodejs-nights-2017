@@ -28,7 +28,7 @@ A[i] = A[i - 2] + A[i - 1]
 Get names of all vehicles owned by Luke Skywalker. Use Starwars API to retrieve data (<http://swapi.co>).
 
 Try to do that both with callbacks, promises and async await:
-- use [request package](https://github.com/request/request) pakcage for making requests using callbacks
+- use [request package](https://github.com/request/request) for making requests using callbacks
 - use [request-promise package](https://www.npmjs.com/package/request-promise) for making requests using Promises and `async await`
 - use `npm install` command to get them
 
