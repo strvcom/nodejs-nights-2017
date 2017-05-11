@@ -3,7 +3,7 @@
 
 Topics covered:
 - Finishing JavaScript - iterators, generators (see [JavaScript topics](./../01-javascript/topics.md))
-- Node.js architecture and basic constructs (see [Node.js topics](./topics.md>))
+- Node.js architecture and basic constructs (see [Node.js topics](./topics.md))
 - [Slides from the lecture](https://docs.google.com/a/strv.com/presentation/d/1JlkZUztqhOxXxhyypeoJQ_Ufz6kQ3oY4xy0oTcahczA/edit?usp=sharing)
 
 ## Homework
