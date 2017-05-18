@@ -11,7 +11,11 @@ Topics covered:
 
 ## Homework
 
-### Create a simple chat server
+### 1. See REST guidelines
+
+- [REST guidelines](rest-api-guidelines.md)
+
+### 2. Create a simple chat server
 
 The server should fulfill these requirements:
 - ask the user for a name when they connect for the first time
