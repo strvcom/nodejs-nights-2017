@@ -28,5 +28,5 @@ Note: You don't need to care about password hashing right now. We will show that
 
 ### 2. Learn Postgres if you don't know it already
 Resources:
+- <https://pgexercises.com>
 - <https://www.tutorialspoint.com/postgresql/>
-- <http://tatiyants.com/pev/#/plans/new>
