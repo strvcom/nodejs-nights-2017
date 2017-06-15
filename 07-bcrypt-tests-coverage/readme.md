@@ -10,10 +10,6 @@ Topics covered:
 [Slides from the lecture](https://docs.google.com/a/strv.com/presentation/d/1JlkZUztqhOxXxhyypeoJQ_Ufz6kQ3oY4xy0oTcahczA/edit?usp=sharing)  
 [Project repository](https://github.com/strvcom/nodejs-nights-project)  
 
-## Videos from lectures
-!!! Please do not share, it is for course students only !!!  
-<https://www.youtube.com/playlist?list=PLH7l6h4alq1M_obEp1xunA6JMtLkaal7m>
-
 ## Homework
 
 ### 1. Write user login endpoint
