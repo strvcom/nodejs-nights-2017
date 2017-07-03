@@ -8,7 +8,7 @@ This repository contains source code and other resources created during Node.js 
 ### REST API
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [koa][npm-koa] | Main framework for building REST APIs. |
 | [koa-body][npm-koa-body] | Koa middleware for parsing request bodies. |
 | [kcors][npm-kcors] | Koa middleware which allows dei. |
@@ -32,7 +32,7 @@ This repository contains source code and other resources created during Node.js 
 ### Data validation
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [joi][npm-joi] | Popular validation library. |
 | [ajv][npm-ajv] | Claimed to be the fastest validation library, uses JSON schema. |
 | [jsonschema][npm-jsonschema] | Another validation library which uses JSON schema. |
@@ -44,7 +44,7 @@ This repository contains source code and other resources created during Node.js 
 ### Logging
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [bunyan][npm-bunyan] | Very popular logging library, it allows sending logs to multiple outputs. |
 | [pino][npm-pino] | A logging library with the same API as bunyan. They claim that it is much faster than other logging libraries. |
 
@@ -54,7 +54,7 @@ This repository contains source code and other resources created during Node.js 
 ### Authorization & hashing
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [jsonwebtoken][npm-jsonwebtoken] | Library generating JSON web tokens. |
 | [bcrypt][npm-bcrypt] | Most popular library for password hahing. |
 
@@ -64,7 +64,7 @@ This repository contains source code and other resources created during Node.js 
 ### Databases
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [pg][npm-pg] | Client for Postgres database. |
 | [pg-promise][npm-pg-promise] | `pg` package wrapper adding Promise interface. |
 | [sequelize][npm-sequelize] | Very popular ORM for Postgres, MySql and other SQL databases. |
@@ -78,7 +78,7 @@ This repository contains source code and other resources created during Node.js 
 ### Tests
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [mocha][npm-mocha] | Favorite test runner. |
 | [mocha-http-detect][npm-mocha-http-detect] | Mocha addon to detect whether tests are not sending request to external systems. |
 | [chai][npm-chai] | Probably the most favorite assertion library. |
@@ -112,7 +112,7 @@ This repository contains source code and other resources created during Node.js 
 ### Tests coverage
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [istanbul][npm-istanbul] | Tests coverage generator. |
 | [nyc][npm-nyc] | Istanbul's wrapper. |
 
@@ -122,7 +122,7 @@ This repository contains source code and other resources created during Node.js 
 ### Server monitoring
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [newrelic][npm-newrelic] | Nice easy-to-use package that monitors server performance and errors. |
 
 [npm-newrelic]: https://npmjs.com/package/newrelic
@@ -130,7 +130,7 @@ This repository contains source code and other resources created during Node.js 
 ### Queues
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [bull][npm-bull] | Easy-to-use package for queues (uses Redis). |
 | [amqplib][npm-amqplib] | RabbitMQ queue client. |
 
@@ -140,7 +140,7 @@ This repository contains source code and other resources created during Node.js 
 ### Image resizing
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [sharp][npm-sharp] | Nice package for image resizing. |
 
 [npm-sharp]: https://npmjs.com/package/sharp
@@ -148,7 +148,7 @@ This repository contains source code and other resources created during Node.js 
 ### Sending emails
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [nodemailer][npm-nodemailer] | Supports all kinds of email providers. |
 | [sendgrid-mailer][npm-sendgrid-mailer] | Sendgrid client, wrapper of the `sendgrid` package. |
 
@@ -158,7 +158,7 @@ This repository contains source code and other resources created during Node.js 
 ### Other
 
 | Library | Desciption |
-|-|-|
+|---------|------------|
 | [uuid][npm-uuid] | Unique identifier generator. |
 | [lodash][npm-lodash] | Package with all kinds of utilities on JavaScript objects and collections. |
 | [request][npm-request] | Allows sending HTTP requests. |
