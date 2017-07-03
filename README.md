@@ -3,15 +3,18 @@
 
 This repository contains resources from STRV Node.js Nights course. Here is the list of covered topics:
 
-1. [JavaScript](./01-javascript)
-2. [Node.js introduction](./02-node-js)
-3. [NPM, TCP & HTTP servers, REST API](./03-npm-servers-rest)
-4. [Koa](./04-koa)
-5. [Errors, validation, Docker](./05-errors-validation-docker)
-6. [PG client, sequelize ORM](./06-docker-pg-sequelize)
-7. [Password hashing, tests, tests coverage](./07-bcrypt-tests-coverage)
-8. [Deployment](./08-deployment)
-9. [Workers](./09-workers)
+[1. JavaScript](./01-javascript)
+[2. Node.js introduction](./02-node-js)
+[3. NPM, TCP & HTTP servers, REST API](./03-npm-servers-rest)
+[4. Koa](./04-koa)
+[5. Errors, validation, Docker](./05-errors-validation-docker)
+[6. PG client, sequelize ORM](./06-docker-pg-sequelize)
+[7. Password hashing, tests, tests coverage](./07-bcrypt-tests-coverage)
+[8. Deployment](./08-deployment)
+[9. Workers](./09-workers)
+
+[Slides from lectures](https://docs.google.com/a/strv.com/presentation/d/1JlkZUztqhOxXxhyypeoJQ_Ufz6kQ3oY4xy0oTcahczA/edit?usp=sharing)  
+[Project repository](https://github.com/strvcom/nodejs-nights-project)  
 
 ## List of packages:
 
