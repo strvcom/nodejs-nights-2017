@@ -158,7 +158,7 @@ This repository contains source code and other resources created during Node.js 
 ### Other
 
 | Library | Desciption |
-|---------|------------|
+|:--------|:-----------|
 | [uuid][npm-uuid] | Unique identifier generator. |
 | [lodash][npm-lodash] | Package with all kinds of utilities on JavaScript objects and collections. |
 | [request][npm-request] | Allows sending HTTP requests. |
