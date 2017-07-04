@@ -13,6 +13,7 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 [8. Deployment](./08-deployment)  
 [9. Workers](./09-workers)  
 
+## Links:
 [Slides from lectures](https://docs.google.com/a/strv.com/presentation/d/1JlkZUztqhOxXxhyypeoJQ_Ufz6kQ3oY4xy0oTcahczA/edit?usp=sharing)  
 [Project repository](https://github.com/strvcom/nodejs-nights-project)  
 
@@ -24,9 +25,9 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 |:--------|:-----------|
 | [koa][npm-koa] | Main framework for building REST APIs. |
 | [koa-body][npm-koa-body] | Koa middleware for parsing request bodies. |
-| [kcors][npm-kcors] | Koa middleware which allows dei. |
-| [koa-compose][npm-koa-compose] | Koa helper to compose multiple middleware into one. |
-| [koa-router][npm-koa-router] | Koa package for REST API routes defining.
+| [kcors][npm-kcors] | Koa middleware which allows setup of access control headers. |
+| [koa-compose][npm-koa-compose] | Koa helper to compose multiple middleware functions into one. |
+| [koa-router][npm-koa-router] | Koa package for REST API routes definition.
 | [koa-static2][npm-koa-static2] | Package for static files serving. |
 | [koa-compress][npm-koa-compress] | Koa package for request/response compression. |
 | [express][npm-express] | Koa framework alternative. |
@@ -58,8 +59,8 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 
 | Library | Desciption |
 |:--------|:-----------|
-| [bunyan][npm-bunyan] | Very popular logging library, it allows sending logs to multiple outputs. |
-| [pino][npm-pino] | A logging library with the same API as bunyan. They claim that it is much faster than other logging libraries. |
+| [bunyan][npm-bunyan] | Very popular logging library, it allows sending logs to multiple output streams. |
+| [pino][npm-pino] | Logging library with the same API as bunyan. It is claimed to be much faster than other logging libraries. |
 
 [npm-bunyan]: https://npmjs.com/package/bunyan
 [npm-pino]: https://npmjs.com/package/pino
@@ -78,11 +79,15 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 
 | Library | Desciption |
 |:--------|:-----------|
-| [pg][npm-pg] | Client for Postgres database. |
+| [pg][npm-pg] | Client for the Postgres database. |
 | [pg-promise][npm-pg-promise] | `pg` package wrapper adding Promise interface. |
 | [sequelize][npm-sequelize] | Very popular ORM for Postgres, MySql and other SQL databases. |
 | [objection][npm-objection] | Alternative to `sequelize` package. |
+| [mongodb][npm-mongodb] | Official Node.js client for MongoDB. |
+| [mongoose][npm-mongoose] | MongoDB ORM library. |
 
+[npm-mongodb]: https://npmjs.com/package/mongodb
+[npm-mongoose]: https://npmjs.com/package/mongoose
 [npm-objection]: https://npmjs.com/package/objection
 [npm-pg-promise]: https://npmjs.com/package/pg-promise
 [npm-pg]: https://npmjs.com/package/pg
@@ -93,8 +98,8 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 | Library | Desciption |
 |:--------|:-----------|
 | [mocha][npm-mocha] | Favorite test runner. |
-| [mocha-http-detect][npm-mocha-http-detect] | Mocha addon to detect whether tests are not sending request to external systems. |
-| [chai][npm-chai] | Probably the most favorite assertion library. |
+| [mocha-http-detect][npm-mocha-http-detect] | Mocha addon to detect whether tests are sending request to external systems. |
+| [chai][npm-chai] | Probably the most favorite assertion library (use expect syntax). |
 | [dirty-chai][npm-dirty-chai] | Library which converts chai property access assertions to method calls. |
 | [chai-as-promised][npm-chai-as-promised] | Chai addon adding Promise assertions. |
 | [chai-shallow-deep-equal][npm-chai-shallow-deep-equal] | Chai addon adding assertion for shalow comparison of two objects keys and values. |
@@ -102,7 +107,7 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 | [jest][npm-jest] | Tests runner from Facebook, very popular on frontend but it can be used on backend too. |
 | [ava][npm-ava] | Another tests runner, mocha alternative. |
 | [sinon][npm-sinon] | Popular mocking library. |
-| [sinon-chai][npm-sinon-chai] | Chai addon adding assertions on sinon stubs. |
+| [sinon-chai][npm-sinon-chai] | Chai addon adding assertions on sinon stubs and mocks. |
 | [supertest-koa-agent][npm-supertest-koa-agent] | Package that can start Koa app instance and send requests to it. |
 | [chance][npm-chance] | Package for fake data generating. |
 | [faker][npm-faker] | Package for fake data generating. |
@@ -136,7 +141,7 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 
 | Library | Desciption |
 |:--------|:-----------|
-| [newrelic][npm-newrelic] | Nice easy-to-use package that monitors server performance and errors. |
+| [newrelic][npm-newrelic] | Nice easy-to-use package for server monitoring. |
 
 [npm-newrelic]: https://npmjs.com/package/newrelic
 
@@ -168,6 +173,18 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 [npm-nodemailer]: https://npmjs.com/package/nodemailer
 [npm-sendgrid-mailer]: https://npmjs.com/package/sendgrid-mailer
 
+### Payments
+
+| Library | Desciption |
+|:--------|:-----------|
+| [stripe][npm-stripe] | Stripe payment system client. |
+| [braintree][npm-braintree] | Braintree payment system client. |
+| [iap][npm-iap] | In-app purchases validation. |
+
+[npm-braintree]: https://npmjs.com/package/braintree
+[npm-iap]: https://npmjs.com/package/iap
+[npm-stripe]: https://npmjs.com/package/stripe
+
 ### Other
 
 | Library | Desciption |
@@ -177,7 +194,6 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 | [request][npm-request] | Allows sending HTTP requests. |
 | [request-promise][npm-request-promise] | Wrapper of the `request` package adding Promise interface. |
 | [twilio][npm-twilio] | Twilio client, allows sending SMS. |
-| [iap][npm-iap] | In-app purchases validation. |
 | [bluebird][npm-bluebird] | Promise implementation. Requires less memory than native Promise, adds bunch of useful methods. |
 | [xml2js][npm-xml2js] | Package for generating and parsing XML data (if you really have to). |
 | [cheerio][npm-cheerio] | Package for web scraping. |
@@ -186,11 +202,12 @@ This repository contains resources from STRV Node.js Nights course. Here is the 
 | [nodestream][npm-nodestream] | File uploads/downloads. |
 | [randomstring][npm-randomstring] | Random string generator. |
 | [shortid][npm-shortid] | Short ID generator. |
+| [async][npm-async] | Async control flow (run functions is parallel, series, iterations, simple workers etc.). |
 
+[npm-async]: https://npmjs.com/package/async
 [npm-bluebird]: https://npmjs.com/package/bluebird
 [npm-cheerio]: https://npmjs.com/package/cheerio
 [npm-dotenv]: https://npmjs.com/package/dotenv
-[npm-iap]: https://npmjs.com/package/iap
 [npm-lodash]: https://npmjs.com/package/lodash
 [npm-moment]: https://npmjs.com/package/moment
 [npm-nodestream]: https://npmjs.com/package/nodestream
